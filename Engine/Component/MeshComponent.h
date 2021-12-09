@@ -22,4 +22,3 @@ namespace nc
 		std::shared_ptr<Program> program;
 	};
 }
-

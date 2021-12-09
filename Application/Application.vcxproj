@@ -164,8 +164,30 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+=======
+    <None Include="..\Build\resources\materials\ogre.mtl" />
+    <None Include="..\Build\Resources\Materials\spot.mtl" />
+    <None Include="..\Build\Resources\Materials\wood.mtl" />
+    <None Include="..\Build\resources\scenes\main.scn" />
+>>>>>>> Stashed changes
     <None Include="..\Build\Resources\Shaders\basic.frag" />
     <None Include="..\Build\Resources\Shaders\basic.vert" />
+<<<<<<< Updated upstream
+=======
+    <None Include="..\Build\resources\shaders\flat.frag" />
+    <None Include="..\Build\resources\shaders\flat.shdr" />
+    <None Include="..\Build\resources\shaders\flat.vert" />
+    <None Include="..\Build\resources\shaders\gouraud.frag" />
+    <None Include="..\Build\resources\shaders\gouraud.shdr" />
+    <None Include="..\Build\resources\shaders\gouraud.vert" />
+    <None Include="..\Build\resources\shaders\Phong.frag" />
+    <None Include="..\Build\resources\shaders\Phong.shdr" />
+    <None Include="..\Build\resources\shaders\Phong.vert" />
+    <None Include="..\Build\resources\shaders\phong_normal.frag" />
+    <None Include="..\Build\resources\shaders\phong_normal.shdr" />
+    <None Include="..\Build\resources\shaders\phong_normal.vert" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

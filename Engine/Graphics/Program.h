@@ -36,8 +36,6 @@ namespace nc
 	private:
 		GLint GetUniform(const std::string& name);
 
-		void DisplayInfo();
-
 	private:
 		GLuint program = 0;
 		std::vector<std::shared_ptr<Shader>> shaders;
