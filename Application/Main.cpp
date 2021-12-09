@@ -46,7 +46,10 @@ const GLuint indices[] =
 
 int main(int argc, char** argv)
 {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 3e8d285 (Light and Materials)
     std::unique_ptr<nc::Engine> engine = std::make_unique<nc::Engine>();
     engine->Startup();
     engine->Get<nc::Renderer>()->Create("OpenGL", 800, 600);
@@ -170,6 +173,7 @@ int main(int argc, char** argv)
 
     }
     return 0;
+<<<<<<< HEAD
 =======
 	// create engine
 	std::unique_ptr<nc::Engine> engine = std::make_unique<nc::Engine>();
@@ -231,4 +235,6 @@ int main(int argc, char** argv)
 
 	return 0;
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 3e8d285 (Light and Materials)
 }
