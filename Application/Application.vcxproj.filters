@@ -16,24 +16,12 @@
     <Filter Include="Resource Files\Shaders">
       <UniqueIdentifier>{dbe2b496-8353-412e-812f-2340a9be9d0d}</UniqueIdentifier>
     </Filter>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
     <Filter Include="Resource Files\Materials">
       <UniqueIdentifier>{2f18a1c5-817e-465f-a453-902c3ce60f4f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files\Scenes">
       <UniqueIdentifier>{ca868b33-1e55-41c2-95df-e93ff9a27fbb}</UniqueIdentifier>
     </Filter>
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 3e8d285 (Light and Materials)
-=======
->>>>>>> parent of 3e8d285 (Light and Materials)
-=======
->>>>>>> parent of 3e8d285 (Light and Materials)
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -50,11 +38,6 @@
     <None Include="..\Build\Resources\Shaders\basic.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
     <None Include="..\Build\Resources\Materials\wood.mtl">
       <Filter>Resource Files\Materials</Filter>
     </None>
@@ -106,12 +89,5 @@
     <None Include="..\Build\resources\materials\ogre.mtl">
       <Filter>Resource Files\Materials</Filter>
     </None>
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 3e8d285 (Light and Materials)
-=======
->>>>>>> parent of 3e8d285 (Light and Materials)
-=======
->>>>>>> parent of 3e8d285 (Light and Materials)
   </ItemGroup>
 </Project>

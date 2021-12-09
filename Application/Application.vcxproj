@@ -167,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     <None Include="..\Build\resources\materials\ogre.mtl" />
@@ -191,6 +192,10 @@
     <None Include="..\Build\resources\shaders\phong_normal.shdr" />
     <None Include="..\Build\resources\shaders\phong_normal.vert" />
 >>>>>>> Stashed changes
+=======
+    <None Include="..\Build\Resources\Shaders\basic.frag" />
+    <None Include="..\Build\Resources\Shaders\basic.vert" />
+>>>>>>> parent of 3e8d285 (Light and Materials)
 =======
     <None Include="..\Build\Resources\Shaders\basic.frag" />
     <None Include="..\Build\Resources\Shaders\basic.vert" />
