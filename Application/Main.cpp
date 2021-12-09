@@ -48,7 +48,10 @@ int main(int argc, char** argv)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of 3e8d285 (Light and Materials)
 =======
 >>>>>>> parent of 3e8d285 (Light and Materials)
 =======
@@ -178,6 +181,7 @@ int main(int argc, char** argv)
     return 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	// create engine
 	std::unique_ptr<nc::Engine> engine = std::make_unique<nc::Engine>();
@@ -239,6 +243,8 @@ int main(int argc, char** argv)
 
 	return 0;
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 3e8d285 (Light and Materials)
 =======
 >>>>>>> parent of 3e8d285 (Light and Materials)
 =======
