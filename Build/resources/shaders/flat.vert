@@ -3,7 +3,7 @@
     layout(location = 1) in vec3 normal;
     layout(location = 2) in vec2 texcoord;
 
-	out vec3 fs_color;
+	flat out vec3 fs_color;
     out vec2 fs_texcoord;
 
     struct Material

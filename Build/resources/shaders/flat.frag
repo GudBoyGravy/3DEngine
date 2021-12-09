@@ -1,5 +1,5 @@
 #version 430 core
-	in vec3 fs_color;
+	flat in vec3 fs_color;
     in vec2 fs_texcoord;
 
     out vec4 outColor;
