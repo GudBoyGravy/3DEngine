@@ -17,6 +17,7 @@ namespace nc
 		REGISTER_CLASS(CameraComponent)
 		REGISTER_CLASS(MeshComponent)
 		REGISTER_CLASS(ModelComponent)
+		REGISTER_CLASS(LightComponent)
 
 		REGISTER_CLASS(FreeCameraController)
 

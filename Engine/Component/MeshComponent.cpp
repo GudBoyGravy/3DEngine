@@ -1,5 +1,6 @@
 #include "MeshComponent.h"
-#include "Engine.h"
+#include "CameraComponent.h"
+#include "Object/Actor.h"
 
 namespace nc
 {
@@ -7,18 +8,18 @@ namespace nc
 	{
 
 	}
-	
+
 	void MeshComponent::Draw(Renderer* renderer)
 	{
-		program->Use();
-		program->SetUniform("model", owner->transform.matrix);
+		material->shader->SetUniform("model", owner->transform.matrix);
 		auto actor = owner->scene->FindActor("camera");
 		if (actor != nullptr)
 		{
-			program->SetUniform("view", actor->GetComponent<CameraComponent>()->view);
-			program->SetUniform("projection", actor->GetComponent<CameraComponent>()->projection);
+			material->shader->SetUniform("view", actor->GetComponent<CameraComponent>()->view);
+			material->shader->SetUniform("projection", actor->GetComponent<CameraComponent>()->projection);
 		}
-		
+
+		material->Set();
 		vertexBuffer->Draw();
 	}
 

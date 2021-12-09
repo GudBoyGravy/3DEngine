@@ -16,6 +16,9 @@
     <Filter Include="Resource Files\Shaders">
       <UniqueIdentifier>{dbe2b496-8353-412e-812f-2340a9be9d0d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Materials">
+      <UniqueIdentifier>{2f18a1c5-817e-465f-a453-902c3ce60f4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -30,6 +33,24 @@
       <Filter>Resource Files\Shaders</Filter>
     </None>
     <None Include="..\Build\Resources\Shaders\basic.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Build\Resources\Materials\wood.mtl">
+      <Filter>Resource Files\Materials</Filter>
+    </None>
+    <None Include="..\Build\Resources\Materials\spot.mtl">
+      <Filter>Resource Files\Materials</Filter>
+    </None>
+    <None Include="..\Build\Resources\Shaders\light.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Build\Resources\Shaders\light.shdr">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Build\Resources\Shaders\light.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Build\resources\shaders\basic.shdr">
       <Filter>Resource Files\Shaders</Filter>
     </None>
   </ItemGroup>
