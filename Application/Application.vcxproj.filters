@@ -17,6 +17,7 @@
       <UniqueIdentifier>{dbe2b496-8353-412e-812f-2340a9be9d0d}</UniqueIdentifier>
     </Filter>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     <Filter Include="Resource Files\Materials">
@@ -26,6 +27,8 @@
       <UniqueIdentifier>{ca868b33-1e55-41c2-95df-e93ff9a27fbb}</UniqueIdentifier>
     </Filter>
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 3e8d285 (Light and Materials)
 =======
 >>>>>>> parent of 3e8d285 (Light and Materials)
   </ItemGroup>
@@ -44,6 +47,7 @@
     <None Include="..\Build\Resources\Shaders\basic.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -99,6 +103,8 @@
       <Filter>Resource Files\Materials</Filter>
     </None>
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 3e8d285 (Light and Materials)
 =======
 >>>>>>> parent of 3e8d285 (Light and Materials)
   </ItemGroup>
