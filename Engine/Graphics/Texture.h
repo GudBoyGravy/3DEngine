@@ -2,7 +2,7 @@
 #include "Renderer.h"
 #include "Resource/Resource.h"
 #include "Math/MathTypes.h"
-#include "glad.h"
+#include "glad/glad.h"
 #include <SDL.h>
 
 namespace nc
@@ -12,7 +12,7 @@ namespace nc
 	public:
 		~Texture();
 		bool Load(const std::string& name, void* null) override;
-		
+
 		void Bind() { glBindTexture(target, texture); }
 		bool CreateTexture(const std::string& filename, GLenum target = GL_TEXTURE_2D, GLuint unit = GL_TEXTURE0);
 
@@ -23,4 +23,5 @@ namespace nc
 		GLuint unit{ GL_TEXTURE0 };
 		GLuint texture{ 0 };
 	};
+
 }

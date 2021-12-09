@@ -1,5 +1,10 @@
 #include "FileSystem.h"
 #include <filesystem>
+#include <SDL_log.h>
+#include <iostream>
+#include <sstream>
+#include <fstream>
+#include <string>
 
 namespace nc
 {
@@ -11,5 +16,26 @@ namespace nc
 	std::string GetFilePath()
 	{
 		return std::filesystem::current_path().string(); 
+	}
+
+	bool ReadFileToString(const std::string& filename, std::string& filestring)
+	{
+		std::ifstream fileStream(filename, std::ios::in);
+		if (!fileStream.is_open())
+		{
+			SDL_Log("Error: Failed to open file: %s", filename.c_str());
+			return false;
+		}
+
+		std::stringstream stream;
+
+		stream << fileStream.rdbuf();
+
+		filestring = stream.str();
+
+		fileStream.close();
+
+		return true;
+
 	}
 }
